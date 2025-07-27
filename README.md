@@ -25,8 +25,8 @@ Here’s a quick breakdown of the main components:
 * The **Flask app** brings it all together by serving the webpage and processing form submissions.
 * The **frontend** displays events in a card-based layout with an email form for users to get ticket updates.
 
-**3. Challenges We Faced**
-Every real-world project hits some bumps. Here’s what we ran into and how we fixed it:
+**3. Challenges I Faced**
+Every real-world project hits some bumps. Here’s what I ran into and how we fixed it:
 
 * **Changing website structures** broke our scrapers sometimes, so we regularly updated CSS selectors and added backup ones.
 * **Missing event data** early in development was solved by injecting test entries and ensuring proper database writes.
@@ -48,12 +48,3 @@ Looking ahead, we hope to expand the coverage to other cities, suggest events us
 
 ---
 
-Would you like this turned into a printable document or included in a portfolio format?
-
-
-sydney_events/
-├── app.py # The main Flask app
-├── scraper.py # Python script that scrapes event data
-├── requirements.txt # List of required Python packages
-└── templates/
-└── index.html # The HTML page shown to users
